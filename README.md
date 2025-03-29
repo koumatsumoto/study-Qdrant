@@ -17,6 +17,15 @@ curl -sSL https://install.python-poetry.org | python3 -
 poetry install
 ```
 
+## コードフォーマット
+
+このプロジェクトは Black を使用してコードをフォーマットします。
+
+```bash
+# すべてのPythonファイルをフォーマット
+poetry run black .
+```
+
 ## 依存関係
 
 主な依存関係：
